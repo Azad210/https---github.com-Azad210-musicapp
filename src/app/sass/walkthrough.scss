@@ -1,0 +1,73 @@
+@import '../variables/path-color';
+
+.background-image-in-walkthrough {
+  width: 100%;
+  height: 400px;
+  background-image: url('/pic/asset.svg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headline-and-text-under-background-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.icon-circle {
+  width: 75px;              
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid black;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+
+  .radio-icon,
+.heart-icon,
+.note-icon {
+  width: 42px;
+  height: 30px;
+  color: black;
+
+}
+  &.radio-bg {
+    background-color: $pink-color; 
+  }
+
+  .radio-icon{
+    color: white;
+  }
+}
+
+
+.paths {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  margin-top: 30px;
+}
+
+.skip-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}

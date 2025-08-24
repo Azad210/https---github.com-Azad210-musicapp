@@ -1,0 +1,77 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: flex;
+}
+
+.Login-formular input {
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+  outline: none;
+  padding: 5px 0;
+  font-size: 16px;
+  width: 325px;
+}
+
+.Login-formular {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-in-login {
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  border: 3px solid black;
+  width: 325px;
+  background-color: #ffffff;
+}
+
+.text-over-input {
+  font-weight: bold;
+}
+
+.fingerprint {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-top: 20px;
+  background-color: rgb(255, 17, 104);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fingerprint-icon {
+  width: 30px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.spotify-button {
+  background-color: #1db954;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #1ed760;
+  }
+}

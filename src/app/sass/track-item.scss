@@ -1,0 +1,47 @@
+.track-item-button {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.track-item {
+  display: grid;
+  grid-template-columns: 32px auto 48px;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
+}
+
+.play-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #ff7eb9, #ffb347);
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.fa-play {
+  color: white;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-name {
+  font-weight: bold;
+}
+
+.track-artists {
+  font-weight: 300;
+}
+
+.track-duration {
+  text-align: right;
+  font-weight: 300;
+}

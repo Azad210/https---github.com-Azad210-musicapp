@@ -1,0 +1,35 @@
+.common-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px 24px;
+  background-color: #fff;
+  color: #000;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &.transparent {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #707070;
+}
+
+}
